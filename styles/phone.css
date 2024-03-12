@@ -1,0 +1,202 @@
+/* Для телефонов */
+@media (max-width: 350px) {
+
+    body {
+        width: 32rem;
+    }
+
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        height: 72rem;
+    }
+
+    .container .full-form {
+        width: 28.8rem;
+        height: 37rem;
+        padding: 1.6rem;
+    }
+
+    .container .full-form .logo-container {
+        display: inline-block;
+    }
+
+    .container .full-form .logo-container .logo {
+        width: 11.5rem;
+    }
+
+    .container .full-form .logo-container .dot {
+        width: 0.3348rem;
+        height: 0.3348rem;
+        background-color: #137547;
+        position: absolute;
+        top: 3.07rem;
+        left: 11.14rem;
+    }
+
+    .container .full-form .socials {
+        box-sizing: border-box;
+        display: inline;
+        align-items: center;
+        float: right;
+    }
+
+    .container .full-form .socials .social-frame {
+        display: inline;
+    }
+
+    .container .full-form .socials .social-frame .facebok {
+        margin-right: 3.3rem;
+        margin-top: 0.2rem;
+        width: 2rem;
+        height: 1.9879rem;
+        object-fit: contain;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .container .full-form .socials .social-frame .twitter {
+        margin-top: 0.3rem;
+        margin-right: 0.14rem;
+        width: 2.0384rem;
+        height: 1.6566rem;
+        object-fit: contain;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .container .full-form .socials .follow-us-text {
+        display: none;
+    }
+
+    .container .full-form .center-content {
+        flex-direction: column;
+        padding: 10rem 0rem 0rem 0rem;
+    }
+
+    .container .full-form .center-content .texts .title-text {
+        margin-bottom: 0.7rem;
+        text-align: center;
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #12121b;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .center-content .texts .description-text {
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #2d2e46;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .center-content .form {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+
+    .container .full-form .center-content .form .form-interaction {
+        margin-bottom: 1.2rem;
+        padding-top: 3.2rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .full-form .center-content .form .form-interaction .input {
+        margin-bottom: 1.64rem;
+        box-sizing: border-box;
+        padding: 1.5rem 0rem 1.3rem 1.2rem;
+        width: 100%;
+        height: 4.4rem;
+        border: solid 0.1rem #eaeaea;
+        box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.0500000007);
+        background-color: #ffffff;
+        border-radius: 0.8rem;
+    }
+
+    .container .full-form .center-content .form .form-interaction .input .input-text {
+        width: 100%;
+        height: 100%;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        color: #12121b;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+
+    .container .full-form .center-content .form .form-interaction .button {
+        box-sizing: border-box;
+        width: 28.8rem;
+        height: 3.8rem;
+        cursor: pointer;
+        overflow: hidden;
+        border: solid 0.1rem #0f5e39;
+        box-shadow: inset 0 0.2rem 0.1rem rgba(255, 255, 255, 0.200000003), inset 0 -0.2rem 0.1rem rgba(0, 0, 0, 0.200000003);
+        background-color: #137547;
+        border-radius: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .full-form .center-content .form .form-interaction .button .button-text {
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #ffffff;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .center-content .form .comming-soon-text {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        color: #5f6078;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .frame-33 {
+        display: none;
+    }
+
+    .container .frame-24 {
+        width: 100%;
+        height: 35rem;
+        position: relative;
+        flex-shrink: 0;
+    }
+
+    .container .frame-24 .constent-image {
+        width: 27rem;
+        height: 60.6rem;
+        position: absolute;
+        left: 1.7rem;
+        top: 1.6rem;
+        object-fit: cover;
+        vertical-align: top;
+        border-radius: 3.2rem;
+        border: solid 0.8rem #0F5E39;
+    }
+
+    .container .frame-24 .rectangle {
+        width: 32rem;
+        height: 6.4rem;
+        position: absolute;
+        left: 0;
+        bottom: 0rem;
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0) -0%, #ffffff 100%);
+    }
+}

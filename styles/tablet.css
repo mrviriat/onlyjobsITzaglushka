@@ -1,0 +1,238 @@
+/* Для планшетов */
+@media (min-width: 321px) and (max-width: 769px) {
+
+    body {
+        width: 76.8rem;
+    }
+
+    .container {
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        height: 102.4rem;
+    }
+
+    .container .full-form {
+        margin: 0rem 3.2rem 0rem 3.2rem;
+        width: calc(100% - 6.4rem);
+        flex-shrink: 0;
+        height: 51.2rem;
+    }
+
+    .container .full-form .logo-container {
+        /* width: 100%;
+        height: 5.6rem; */
+        display: inline-block;
+    }
+
+    .container .full-form .logo-container .logo {
+        width: 11.5rem;
+        padding-top: 3.2rem;
+        /* height: 0.3348rem; */
+        /* background-color: #137547; */
+    }
+
+    .container .full-form .logo-container .dot {
+        width: 0.3348rem;
+        height: 0.3348rem;
+        background-color: #137547;
+        position: absolute;
+        top: 4.7rem;
+        left: 12.7rem;
+    }
+
+    .container .full-form .logo-container .logo-text .dot {
+        /* width: 100%; */
+        height: 0.3348rem;
+        background-color: #137547;
+    }
+
+    .container .full-form .socials {
+        box-sizing: border-box;
+        padding: 3.4rem 0.179rem 0.212rem 0.2rem;
+        /* height: 100%; */
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+        display: inline;
+        float: right;
+    }
+
+    .container .full-form .socials .social-frame {
+        display: inline;
+    }
+
+    .container .full-form .socials .social-frame .facebok {
+        margin-right: 3.45rem;
+        width: 2rem;
+        height: 1.9879rem;
+        object-fit: contain;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .container .full-form .socials .social-frame .twitter {
+        margin-top: 0.15rem;
+        width: 2.0384rem;
+        height: 1.6566rem;
+        object-fit: contain;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .container .full-form .socials .follow-us-text {
+        display: none;
+    }
+
+    .container .full-form .center-content {
+        flex-direction: column;
+        flex-shrink: 0;
+        order: 3;
+        padding: 10.5rem 0rem 0rem 0rem;
+    }
+
+    .container .full-form .center-content .texts {
+        margin-bottom: 3.15rem;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+
+
+    .container .full-form .center-content .texts .title-text {
+        margin-bottom: 1.6rem;
+        font-size: 4.8rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #12121b;
+        font-family: Exo, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .container .full-form .center-content .texts .description-text {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #2d2e46;
+        font-family: Exo, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .container .full-form .center-content .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+
+    .container .full-form .center-content .form .form-interaction {
+        margin-bottom: 1.2rem;
+        width: 100%;
+        height: 4.4rem;
+        display: flex;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    .container .full-form .center-content .form .form-interaction .input {
+        margin-right: 1.6rem;
+        box-sizing: border-box;
+        padding: 1.5rem 1.2rem 1.3rem 1.2rem;
+        width: 59.2rem;
+        height: 100%;
+        border: solid 0.1rem #eaeaea;
+        box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.0500000007);
+        background-color: #ffffff;
+        border-radius: 0.8rem;
+        flex-shrink: 0;
+    }
+
+    .container .full-form .center-content .form .form-interaction .input .input-text {
+        margin-right: 24.7rem;
+        width: 32.1rem;
+        height: 100%;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        color: #12121b;
+        font-family: Exo, 'Source Sans Pro';
+        white-space: nowrap;
+    }
+
+    .container .full-form .center-content .form .form-interaction .button {
+        margin: 0.3rem 0;
+        box-sizing: border-box;
+
+        width: 9.6rem;
+        height: calc(100% - 0.6rem);
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        border: solid 0.1rem #0f5e39;
+        box-shadow: inset 0 0.2rem 0.1rem rgba(255, 255, 255, 0.200000003), inset 0 -0.2rem 0.1rem rgba(0, 0, 0, 0.200000003);
+        background-color: #137547;
+        border-radius: 5rem;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .full-form .center-content .form .form-interaction .button .button-text {
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #ffffff;
+        font-family: Exo, 'Source Sans Pro';
+        white-space: nowrap;
+    }
+
+
+    .container .full-form .center-content .form .comming-soon-text {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        color: #5f6078;
+        font-family: Exo, 'Source Sans Pro';
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
+
+    .container .frame-24 {
+        display: none;
+    }
+
+    .container .frame-33 {
+        box-sizing: border-box;
+        padding: 8rem 0rem 8.7rem 7.2rem;
+        width: 144rem;
+        height: 51.2rem;
+        overflow: hidden;
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../assets/bg-tiles.png');
+        background-color: #e2edea;
+        flex-shrink: 0;
+    }
+
+    .container .frame-33 .background-image {
+        display: none;
+    }
+
+    .container .frame-33 .content-image {
+        width: 116rem;
+        height: 72.5rem;
+        object-fit: cover;
+        vertical-align: top;
+        border-radius: 3.2rem;
+        border: solid 0.8rem #0F5E39;
+    }
+}

@@ -1,0 +1,235 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 769px) {
+
+    body {
+        width: 144rem;
+    }
+
+    .container {
+        box-sizing: border-box;
+        padding-left: 3.15rem;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        background-color: #f9fafc;
+        height: 90rem;
+    }
+
+    .container .full-form {
+        margin-right: 3.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .full-form .logo {
+        order: 1;
+        margin: 0rem 0rem 29.9rem 0.05rem;
+        box-sizing: border-box;
+        padding: 1.474rem 1.633rem 0.591rem 9.532rem;
+        width: 11.5rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url('../assets/union.png');
+    }
+
+    .container .full-form .logo-container .dot {
+        width: 0.34rem;
+        height: 0.34rem;
+        background-color: #137547;
+        position: absolute;
+        top: 4.65rem;
+        left: 12.75rem;
+    }
+
+    .container .full-form .center-content {
+        order: 2;
+        margin: 0rem 0rem 27.1rem 0.05rem;
+        width: 43.2rem;
+    }
+
+    .container .full-form .center-content .texts {
+        margin-bottom: 3.2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .full-form .center-content .texts .title-text {
+        margin-bottom: 1.6rem;
+        font-size: 4.8rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #12121b;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .center-content .texts .description-text {
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #2d2e46;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .center-content .form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container .full-form .center-content .form .form-interaction {
+        margin-bottom: 1.2rem;
+        width: 100%;
+        height: 4.4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .container .full-form .center-content .form .form-interaction .input {
+        margin-right: 1.7rem;
+        box-sizing: border-box;
+        padding: 1.5rem 0rem 1.3rem 1.2rem;
+        width: 32rem;
+        height: 100%;
+        border: solid 0.1rem #eaeaea;
+        box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.0500000007);
+        background-color: #ffffff;
+        border-radius: 0.8rem;
+    }
+
+    .container .full-form .center-content .form .form-interaction .input .input-text {
+        width: 100%;
+        height: 100%;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        color: #12121b;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .center-content .form .form-interaction .button {
+        margin: 0.3rem 0;
+        box-sizing: border-box;
+        width: 9.6rem;
+        height: calc(100% - 0.6rem);
+        cursor: pointer;
+        overflow: hidden;
+        position: relative;
+        border: solid 0.1rem #0f5e39;
+        box-shadow: inset 0 0.2rem 0.1rem rgba(255, 255, 255, 0.200000003), inset 0 -0.2rem 0.1rem rgba(0, 0, 0, 0.200000003);
+        background-color: #137547;
+        border-radius: 5rem;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .full-form .center-content .form .form-interaction .button .button-text {
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 1;
+        color: #ffffff;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .center-content .form .comming-soon-text {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        color: #5f6078;
+        font-family: Exo, 'Source Sans Pro';
+        white-space: nowrap;
+    }
+
+    .container .full-form .socials {
+        order: 3;
+        width: 8.4rem;
+    }
+
+    .container .full-form .socials .follow-us-text {
+        margin-bottom: 1.6rem;
+        width: 100%;
+        text-align: center;
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.07rem;
+        text-transform: uppercase;
+        color: #5f6078;
+        font-family: Exo, 'Source Sans Pro';
+    }
+
+    .container .full-form .socials .social-frame {
+        margin: 0rem 0.35rem 0rem 0.05rem;
+        box-sizing: border-box;
+        padding: 0.2rem 0.179rem 0.212rem 0.2rem;
+        width: calc(100% - 0.4rem);
+        display: flex;
+        align-items: center;
+    }
+
+    .container .full-form .socials .social-frame .facebok {
+        margin-right: 3.5828rem;
+        width: 2rem;
+        height: 1.9879rem;
+        object-fit: contain;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .container .full-form .socials .social-frame .twitter {
+        margin-top: 0.0075rem;
+        width: 2.0384rem;
+        height: 1.6566rem;
+        object-fit: contain;
+        vertical-align: top;
+        cursor: pointer;
+    }
+
+    .container .frame-24 {
+        display: none;
+    }
+
+    .container .frame-33 {
+        width: 94.4rem;
+        height: 90rem;
+        position: relative;
+        overflow: hidden;
+        /* border: solid 0.1rem #eaeaea; */
+        box-sizing: border-box;
+        background-color: #e2edea;
+    }
+
+    .container .frame-33 .background-image {
+        width: 144rem;
+        height: 51.2rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        object-fit: contain;
+        vertical-align: top;
+    }
+
+    .container .frame-33 .content-image {
+        width: 116rem;
+        height: 72.5rem;
+        position: absolute;
+        left: 7.25rem;
+        top: 8rem;
+        object-fit: cover;
+        vertical-align: top;
+        border-radius: 3.2rem;
+        border: solid 0.8rem #0F5E39;
+    }
+}
