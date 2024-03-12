@@ -124,9 +124,20 @@
         box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.0500000007);
         background-color: #ffffff;
         border-radius: 0.8rem;
+
+
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        font-family: Exo, 'Source Sans Pro';
     }
 
-    .container .full-form .center-content .form .form-interaction .input .input-text {
+    .container .full-form .center-content .form .form-interaction .input::placeholder {
+        color: #12121b;
+        opacity: 1;
+    }
+
+    /* .container .full-form .center-content .form .form-interaction .input .input-text {
         width: 100%;
         height: 100%;
         font-size: 1.4rem;
@@ -134,7 +145,7 @@
         line-height: 1;
         color: #12121b;
         font-family: Exo, 'Source Sans Pro';
-    }
+    } */
 
 
     .container .full-form .center-content .form .form-interaction .button {

@@ -151,9 +151,20 @@
         background-color: #ffffff;
         border-radius: 0.8rem;
         flex-shrink: 0;
+
+        
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1;
+        font-family: Exo, 'Source Sans Pro';
     }
 
-    .container .full-form .center-content .form .form-interaction .input .input-text {
+    .container .full-form .center-content .form .form-interaction .input::placeholder {
+        color: #12121b;
+        opacity: 1;
+    }
+
+    /* .container .full-form .center-content .form .form-interaction .input .input-text {
         margin-right: 24.7rem;
         width: 32.1rem;
         height: 100%;
@@ -163,7 +174,7 @@
         color: #12121b;
         font-family: Exo, 'Source Sans Pro';
         white-space: nowrap;
-    }
+    } */
 
     .container .full-form .center-content .form .form-interaction .button {
         margin: 0.3rem 0;
